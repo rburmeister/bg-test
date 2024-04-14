@@ -1,0 +1,20 @@
+{
+  "name": "blackberg-group",
+  "version": "1.0.0",
+  "description": "uswds coding challenge",
+  "scripts": {
+    "start": "gulp",
+    "build": "gulp build"
+  },
+  "author": "Ross Burmeister",
+  "license": "ISC",
+  "dependencies": {
+    "@uswds/uswds": "^3.8.0"
+  },
+  "devDependencies": {
+    "@uswds/compile": "^1.1.0",
+    "browser-sync": "^3.0.2",
+    "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0"
+  }
+}
