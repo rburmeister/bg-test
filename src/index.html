@@ -16,7 +16,7 @@
   aria-label="Official website of the United States government">
   <div class="usa-accordion">
     <header class="usa-banner__header">
-      <div class="usa-banner__inner display-flex flex-align-center">
+      <div class="usa-banner__inner bg-usa-banner__inner display-flex flex-align-center">
         <div class="grid-col-auto">
           <img
             aria-hidden="true"
@@ -108,8 +108,8 @@
 
   <!-- Header -->
 <div class="usa-overlay"></div>
-<header class="usa-header usa-header--basic">
-  <div class="usa-nav-container padding-x-0 desktop:padding-x-4">
+<header class="usa-header usa-header--basic bg-usa-header">
+  <div class="usa-nav-container bg-usa-nav-container padding-x-0 desktop:padding-x-4">
     <div class="usa-navbar">
       <div class="usa-logo margin-left-2 desktop:margin-left-4">
         <em class="usa-logo__text text-no-wrap">
@@ -171,9 +171,11 @@
 </header>
 <!-- End of Header -->
 
+<!-- Main Content-->
+<main aria-label="Main content">
 <!-- Hero -->
-<section class="usa-section bg-hero" aria-label="Introduction">
-  <div class="grid-container">
+<section class="usa-section bg-usa-section bg-hero" aria-label="Introduction">
+  <div class="grid-container bg-grid-container">
     <div class="grid-row display-flex flex-align-center">
       <div class="bg-hero-image-container grid-col-12 desktop:grid-col-5 order-last desktop:order-first position-relative padding-bottom-15 padding-right-0 desktop:padding-right-5">
         <picture>
@@ -201,13 +203,13 @@
 <!-- / End of Hero -->
 
 <!-- Vision -->
-<section class="usa-section grid-container" aria-label="Vision">
+<section class="usa-section bg-usa-section grid-container bg-grid-container" aria-label="Vision">
   <div class="grid-row">
     <div class="grid-col-12 display-flex flex-column flex-align-center text-center">
       <h2 class="margin-top-0 margin-bottom-2 font-sans-lg tablet:font-sans-xl">
           Vision
         </h2>
-      <p class="maxw-tablet line-height-sans-5">
+      <p class="maxw-680">
           The vision of the VHA Office of Advanced Manufacturing is to provide personalized, safe and equitable care for eligible Veterans by building advanced manufacturing capabilities across the enterprise.
       </p>
     </div>
@@ -217,8 +219,8 @@
 
 
 <!-- Catalog -->
-<section id="section-catalog" class="usa-section bg-base-lightest" aaria-label="Assistive Technology Catalog">
-  <div class="grid-container">
+<section id="section-catalog" class="usa-section bg-usa-section bg-base-lightest" aaria-label="Assistive Technology Catalog">
+  <div class="grid-container bg-grid-container">
       <div class="grid-row grid-gap display-flex flex-justify-center flex-align-center">
           <div class="grid-col-12 desktop:grid-col-5 order-last desktop:order-first margin-top-4 desktop:margin-top-0">
               <picture>
@@ -231,7 +233,7 @@
               <h2 class="margin-top-0 margin-bottom-2 font-sans-lg tablet:font-sans-xl">
                   Assistive Technology Catalog
               </h2>
-              <p class="line-height-sans-5">
+              <p>
                   VHA is partnering with the National Institutes of Health (NIH) to bring you the Assistive Technology (AT) Catalog, a collection of AT devices that are products of collaboration between patients, therapists, and engineers to match a patient’s needs and abilities with customized technology that helps them achieve their goals. This collection aims to share AT designs from the Central Virginia VA Health Care System and derivatives from users, along with stories and print information from VHA and the National Institutes of Health communities. The collection is scheduled to launch in early 2024. For more information or to request these files in the interim, please contact <a href="mailto:john.miller@va.gov" class="text-primary-vivid text-underline">john.miller@va.gov</a>.
               </p>
               <a class="usa-button margin-top-4 bg-primary-vivid width-auto" href="javascript:void(0);" title="Link to Assistive Technology Catalog">
@@ -244,19 +246,19 @@
 <!-- End of Catalog -->
 
 <!-- Product Submission -->
-<section id="section-catalog" class="usa-section bg-primary-vivid text-white" aria-label="Product Idea Submission">
-  <div class="grid-container">
+<section id="section-product-idea-submission" class="usa-section bg-usa-section bg-primary-vivid text-base-lightest" aria-label="Product Idea Submission">
+  <div class="grid-container bg-grid-container">
       <div class="grid-row">
           <div class="grid-col-12">
               <h2 class=" margin-top-0 margin-bottom-2 font-sans-xl">
                   Product Idea Submission
               </h2>
-              <p class="line-height-sans-5">
+              <p>
                   Ready to contribute to cutting-edge healthcare solutions for Veterans? Share your innovative product ideas with us by completing the Product Idea Form. Your insights could be the next breakthrough in patient care and supply chain resilience.
               </p>
           </div>
           <div class="grid-col-12">
-              <form class="usa-form usa-form--large">
+              <form class="usa-form bg-usa-form">
                     <div class="desktop:display-flex grid-gap margin-bottom-1">
                       <div class="grid-col-12 desktop:grid-col-4">
                           <label class="usa-label" for="full-name">Full Name</label>
@@ -301,7 +303,7 @@
                               ></textarea>
                           </div>
                       </div>
-                    <input class="usa-button usa-button--outline text-white border border-solid border-width-1px border-white width-auto" type="submit" value="Send Product Idea" />
+                    <input class="usa-button usa-button--outline bg-usa-button  width-auto" type="submit" value="Send Product Idea" />
                 </form>
           </div>
       </div>
@@ -309,33 +311,36 @@
 </section>
 <!-- End of Product Submission -->
 
+</main>
+<!-- / End of Main Content -->
+
 <!-- Footer -->
-<footer class="usa-footer usa-footer--slim">
+<footer class="usa-footer usa-footer--slim bg-usa-footer">
   <div class="usa-footer__return-to-top grid-container display-flex flex-justify-center desktop:flex-justify-start">
     <a href="#" class="text-primary">Return to top</a>
   </div>
   <div class="usa-footer__primary-section">
-    <div class="usa-footer__primary-container grid-row">
+    <div class="usa-footer__primary-container bg-usa-footer__primary-container grid-row">
       <div class="grid-col-12 desktop:grid-col-8 desktop:padding-left-2">
         <nav class="usa-footer__nav border-0" aria-label="Footer navigation">
           <ul class="grid-row grid-gap flex-justify-center tablet:flex-justify desktop:flex-justify-start">
-            <li class="usa-footer__primary-content display-flex grid-col-12 tablet:grid-col-auto border-0">
-              <a class="usa-footer__primary-link display-flex margin-x-auto desktop:margin-x-0" href="javascript:void(0);">
+            <li class="usa-footer__primary-content grid-col-12 tablet:grid-col-auto">
+              <a class="usa-footer__primary-link" href="javascript:void(0);">
                 Documentation
                 </a>
             </li>
-            <li class="usa-footer__primary-content display-flex grid-col-12 tablet:grid-col-auto border-0">
-              <a class="usa-footer__primary-link display-flex margin-x-auto desktop:margin-x-0" href="javascript:void(0);">
+            <li class="usa-footer__primary-content grid-col-12 tablet:grid-col-auto">
+              <a class="usa-footer__primary-link" href="javascript:void(0);">
                 Features
               </a>
             </li>
-            <li class="usa-footer__primary-content display-flex grid-col-12 tablet:grid-col-auto border-0">
-              <a class="usa-footer__primary-link display-flex margin-x-auto desktop:margin-x-0" href="javascript:void(0);">
+            <li class="usa-footer__primary-content grid-col-12 tablet:grid-col-auto">
+              <a class="usa-footer__primary-link" href="javascript:void(0);">
                 Getting Started
               </a>
             </li>
-            <li class="usa-footer__primary-content display-flex grid-col-12 tablet:grid-col-auto border-0">
-              <a class="usa-footer__primary-link display-flex margin-x-auto desktop:margin-x-0" href="javascript:void(0);">
+            <li class="usa-footer__primary-content grid-col-12 tablet:grid-col-auto">
+              <a class="usa-footer__primary-link" href="javascript:void(0);">
                 About Us
               </a>
             </li>
@@ -361,7 +366,7 @@
     </div>
   </div>
   <div class="usa-footer__secondary-section">
-    <div class="grid-container">
+    <div class="grid-container bg-grid-container">
       <div class="usa-footer__logo">
         <div class="grid-col-auto display-flex display-flex flex-justify-center tablet:flex-justify-start">
           <p class="usa-footer__logo-heading">Office of Advanced Manufacturing</p>

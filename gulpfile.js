@@ -65,7 +65,7 @@ function sync(done) {
     gulp.watch(paths.html, gulp.series(copyHtml, reload));
     gulp.watch(paths.css, gulp.series(copyCss, reload));
     gulp.watch(paths.js, gulp.series(copyJs, reload));
-    gulp.watch(paths.img, gulp.series(copyImg, reload));
+    gulp.watch(paths.img, gulp.series(optimizeImages, reload));
     gulp.watch(paths.fonts, gulp.series(copyFonts, reload));
   }
   
@@ -93,6 +93,7 @@ const build = gulp.series(
 // Define the run sequence for development including live reloading
 const run = gulp.series(
   uswds.compile, 
+  optimizeImages,
   sync, 
   watchFiles
 );
