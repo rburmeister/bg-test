@@ -2,6 +2,8 @@
 
 This project is a coding challenge that utilizes the U.S. Web Design System (USWDS) to create a responsive and accessible website following best practices.
 
+View live demo:[https://bg-test-xi.vercel.app/](https://bg-test-xi.vercel.app/)
+
 ## Project Structure
 
 The project follows a standard structure with source files in the `src` directory and production-ready files in the `dist` directory.
@@ -16,7 +18,7 @@ To set up the project for development, you'll need Node.js and npm installed on 
 1. Clone the repository:
 
    ```bash
-    git clone https://github.com/your-username/BLACKBERG-GROUP-TEST.git
+    git clone https://github.com/rburmeister/bg-test.git
     ```
 
 2. Navigate to the directory where you cloned the project
@@ -34,7 +36,7 @@ To set up the project for development, you'll need Node.js and npm installed on 
 4. Start the development server
 
   ```bash
-    npm run dev
+    npm run start
     ```
 This command will compile SCSS files, watch for changes, and launch a local server with live reloading. Once the server is running, head to [http://localhost:3000/](http://localhost:3000/)
 
