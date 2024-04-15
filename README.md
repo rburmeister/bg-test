@@ -2,7 +2,7 @@
 
 This project is a coding challenge that utilizes the U.S. Web Design System (USWDS) to create a responsive and accessible website following best practices.
 
-View live demo:[https://bg-test-xi.vercel.app/](https://bg-test-xi.vercel.app/)
+View live demo: [https://bg-test-xi.vercel.app/](https://bg-test-xi.vercel.app/)
 
 ### Key Features
 - Responsive layout compatible with all major devices and screen sizes.
