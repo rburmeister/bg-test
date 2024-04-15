@@ -1,0 +1,38 @@
+@use "uswds-core" as *;
+
+.bg-usa-header .usa-nav__primary-item {
+    a {
+        color: var(--gray-90);
+
+        &:hover {
+        color: var(--primary-vivid);
+        }
+    }
+
+    .usa-current {
+        color: var(--primary-vivid);
+
+        &::after {
+        background-color: var(--primary-vivid);
+        }
+    }
+}
+
+.bg-usa-header {
+
+    &+main {
+        border-top: none;
+    }
+
+    @include at-media('tablet') {
+        .usa-search {
+            width: auto; 
+        }
+      }
+
+    @include at-media('desktop') {
+        .usa-search {
+            width: calc(units(1) * 34); 
+        }
+      }
+ }

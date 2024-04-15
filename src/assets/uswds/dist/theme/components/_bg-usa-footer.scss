@@ -1,0 +1,24 @@
+@use "uswds-core" as *;
+
+@include at-media('desktop') {
+    .bg-usa-footer .bg-grid-container, .bg-usa-footer__primary-container {
+      max-width: units('widescreen');
+    }
+  }
+
+.usa-footer__nav {
+    li {
+        display: flex;
+        border: none;
+
+        a {
+            display: flex;
+            margin: 0 auto;
+            text-decoration: none;
+
+            &:hover {
+                color: var(--primary-vivid);
+            }
+        }
+    }
+}

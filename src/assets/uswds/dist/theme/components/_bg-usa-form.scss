@@ -1,0 +1,25 @@
+@use "uswds-core" as *;
+
+.bg-usa-form {
+    .usa-input, .usa-textarea {
+       border-color: var(--gray-90);
+    }
+ }
+
+@include at-media('mobile') {
+    .bg-usa-form {
+        max-width: units('widescreen');
+    }
+
+    .bg-usa-form textarea {
+        min-height: calc(units(1) * 26);
+    }
+}
+
+@include at-media('desktop') {
+    .bg-usa-form textarea {
+        min-height: auto;
+        font-family: var(--font-sans); 
+    }
+}
+

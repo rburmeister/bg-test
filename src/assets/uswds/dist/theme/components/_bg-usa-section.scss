@@ -1,0 +1,17 @@
+@use "uswds-core" as *;
+
+@include at-media('mobile') {
+ 
+    .bg-usa-section {
+       padding-top: units(5);
+       padding-bottom: units(5);
+    }
+}
+  
+  @include at-media('tablet') {
+
+    .bg-usa-section {
+       padding-top: units(10);
+       padding-bottom: units(10);
+    }
+  }

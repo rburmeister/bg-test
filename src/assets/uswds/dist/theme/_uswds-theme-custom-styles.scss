@@ -1,0 +1,57 @@
+/*
+* * * * * ==============================
+* * * * * ==============================
+* * * * * ==============================
+* * * * * ==============================
+========================================
+========================================
+========================================
+----------------------------------------
+USWDS THEME CUSTOM STYLES
+----------------------------------------
+----------------------------------------
+*/
+
+@use "uswds-core" as *;
+@forward "components/_bg-grid-container.scss";
+@forward "components/_bg-usa-header.scss";
+@forward "components/_bg-usa-form.scss";
+@forward "components/_bg-usa-button.scss";
+@forward "components/_bg-usa-section.scss";
+@forward "components/_bg-usa-footer.scss";
+
+:root {
+   --primary-vivid: #{color("blue-warm-60v")};
+   --font-sans: #{family("sans")};
+   --gray-5: #{color("gray-5")};
+   --gray-90: #{color("gray-90")};
+   --gray-10: #{color("gray-10")};
+ }
+
+*, ::before, ::after { box-sizing: border-box; }
+
+* {
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  margin: 0;
+}
+
+body {
+   color: var(--gray-9);
+}
+
+ main p {
+   @include u-line-height('sans', 5)
+ }
+
+.bg-hero-image-container #hero-image-device-close {
+   box-shadow: units(1) units(2) units(4) 0 rgba(0, 0, 0, 0.25);
+}
+
+.text-error {
+   color: #D54309;
+}
+
+.maxw-680 {
+   max-width: calc(units(1) * 85);
+}

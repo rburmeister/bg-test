@@ -1,0 +1,19 @@
+@use "uswds-core" as *;
+
+@include at-media('mobile') {
+    .bg-grid-container {
+      max-width: units('mobile-lg');
+    }
+}
+  
+@include at-media('tablet') {
+  .bg-grid-container {
+    max-width: units('tablet-lg');
+  }
+}
+  
+@include at-media('desktop') {
+  .bg-grid-container, .bg-usa-banner__inner {
+    max-width: units('widescreen');
+  }
+}

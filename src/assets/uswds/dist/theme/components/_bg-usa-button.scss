@@ -1,0 +1,12 @@
+@use "uswds-core" as *;
+
+.bg-usa-button {
+    border: 2px solid var(--gray-10);
+    color: var(--gray-10);
+    box-shadow: none;
+ 
+    &:hover {
+       border: 2px solid var(--gray-5);
+       color: var(--gray-5);
+    }
+ }
