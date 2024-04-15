@@ -24,29 +24,29 @@ To set up the project for development, you'll need Node.js and npm installed on 
 
 1. Clone the repository:
 
-   ```bash
+  ```bash
     git clone https://github.com/rburmeister/bg-test.git
-    ```
+  ```
 
 2. Navigate to the directory where you cloned the project
 
   ```bash
-    cd bg-uswds-test
-    ```
+    cd bg-test
+  ```
 
 3. Install the dependencies 
 
   ```bash
     npm install
-    ```
+  ```
 
 4. Start the development server
 
   ```bash
     npm run start
-    ```
-This command will compile SCSS files, watch for changes, and launch a local server with live reloading. Once the server is running, head to [http://localhost:3000/](http://localhost:3000/)
+  ```
 
+This command will compile SCSS files, watch for changes, and launch a local server with live reloading. Once the server is running, head to [http://localhost:3000/](http://localhost:3000/)
 
 ## Building for Production
 

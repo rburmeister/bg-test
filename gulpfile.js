@@ -46,7 +46,7 @@ const copyFonts = copyFiles(paths.fonts, `${paths.dist}/assets/fonts`);
 function sync(done) {
   browserSync.init({
     server: {
-      baseDir: paths.dist 
+      baseDir: paths.src 
     },
     port: 3000
   });
