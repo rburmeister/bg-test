@@ -4,6 +4,13 @@ This project is a coding challenge that utilizes the U.S. Web Design System (USW
 
 View live demo:[https://bg-test-xi.vercel.app/](https://bg-test-xi.vercel.app/)
 
+### Key Features
+- Responsive layout compatible with all major devices and screen sizes.
+- Accessibility enhancements to ensure all users can navigate and interact with the website effectively.
+
+### Additional Notes
+The project incorporates optimized assets to ensure quick load times and a smooth user experience. Standard system fonts have been used due to licensing constraints.
+
 ## Project Structure
 
 The project follows a standard structure with source files in the `src` directory and production-ready files in the `dist` directory.
